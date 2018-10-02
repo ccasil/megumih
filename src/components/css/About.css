@@ -1,0 +1,10 @@
+.overscreen {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: -100px;
+}
+
+img {
+    margin: 0;
+    padding: 16px;
+}
