@@ -12,14 +12,17 @@ class Home extends Component {
                 <Link className="nav-link" to="/blog"><div className="yellowcolor box">
                     Blog
                 </div></Link>
-                <Link className="nav-link" to="/editorial"><div className="bluecolor box">
-                    Editorial
+                <Link className="nav-link" to="/styling"><div className="bluecolor box">
+                    Styling
                 </div></Link>
                 <Link className="nav-link" to="/documentary"><div className="redcolor box">
                     Documentary
                 </div></Link>
                 <Link className="nav-link" to="/about"><div className="yellowcolor box">
                     About
+                </div></Link>
+                <Link className="nav-link" to="/resume"><div className="bluecolor box">
+                    Resume
                 </div></Link>
             </div>
         );

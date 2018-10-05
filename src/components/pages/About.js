@@ -3,7 +3,7 @@ import "../css/About.css";
 
 import $ from 'jquery';
 
-import bioimage from '../../images/bio_image.png';
+import bioimage from '../../images/general/bio_image.png';
 
 class About extends Component {
     render() {
@@ -44,6 +44,12 @@ class About extends Component {
                     <p className="lead">
                         Megumi will be graduating in December of 2018 with a Master’s in Fashion Journalism.  As she begins her professional career, she hopes to work as an editorial assistant for a leading fashion journal, magazine or website. She is looking forward to being part of a creative and innovative team, where she can use all of her journalistic skills and abilities.
                     </p>
+                </div>
+                <div className="container">
+                    <div className="row">
+                        <a className="col text-right" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                        <a className="col text-left" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
         );

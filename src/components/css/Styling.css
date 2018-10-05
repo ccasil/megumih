@@ -1,0 +1,9 @@
+.overscreen {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: -100px;
+}
+
+figure {
+    padding: 50px;
+}
