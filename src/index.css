@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px 0px 0px 36px;
   font-family: 'CaladeaRegular'; 
   font-weight: normal; 
   font-style: normal; 
@@ -10,5 +10,6 @@ body {
 h1 {
   font-family: 'BebasNeueBold';
   font-weight: normal; 
-  font-style: normal; 
+  font-style: normal;
+  text-align: center; 
 }

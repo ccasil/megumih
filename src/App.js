@@ -19,15 +19,17 @@ class App extends Component {
       <Router onUpdate={() => window.scrollTo(0, 0)}>
         <div className="App">
           <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/magazine" component={Magazine} />
-          <Route exact path="/blog" component={Blog} />
-          <Route exact path="/styling" component={Styling} />
-          <Route exact path="/documentary" component={Documentary} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/styling1" component={Styling1} />
-          <Route exact path="/styling2" component={Styling2} />
+          <div className="container-fluid">
+            <Route exact path="/" component={Home} />
+            <Route exact path="/magazine" component={Magazine} />
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/styling" component={Styling} />
+            <Route exact path="/documentary" component={Documentary} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/styling1" component={Styling1} />
+            <Route exact path="/styling2" component={Styling2} />
+          </div>
         </div>
       </Router>
     );
