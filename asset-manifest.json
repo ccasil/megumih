@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.9f53b7c8.css",
-  "main.css.map": "static/css/main.9f53b7c8.css.map",
-  "main.js": "static/js/main.78e51d50.js",
-  "main.js.map": "static/js/main.78e51d50.js.map",
+  "main.css": "static/css/main.4da5a24c.css",
+  "main.css.map": "static/css/main.4da5a24c.css.map",
+  "main.js": "static/js/main.5e9d8268.js",
+  "main.js.map": "static/js/main.5e9d8268.js.map",
   "static\\media\\1.JPG": "static/media/1.543a7f98.JPG",
   "static\\media\\10.jpg": "static/media/10.d96385b4.jpg",
   "static\\media\\11.jpg": "static/media/11.dffb5328.jpg",
@@ -16,5 +16,7 @@
   "static\\media\\8.JPG": "static/media/8.4c27357b.JPG",
   "static\\media\\9.JPG": "static/media/9.5574c096.JPG",
   "static\\media\\Header.JPG": "static/media/Header.fc37748c.JPG",
-  "static\\media\\bio_image.png": "static/media/bio_image.aae283ca.png"
+  "static\\media\\bio_image.png": "static/media/bio_image.aae283ca.png",
+  "static\\media\\instagram.png": "static/media/instagram.ed28a4b0.png",
+  "static\\media\\linkedin.png": "static/media/linkedin.eab14229.png"
 }
