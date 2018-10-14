@@ -12,32 +12,32 @@ class Navbar extends Component {
             <div>
                 {/* <h1 className="display-1">Megumi Hiramoto</h1> */}
 
-                <nav class="navbar fixed-top navbar-light text-center">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <nav className="navbar fixed-top navbar-light text-center">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand text-center name" href="#">Megumi Hiramoto</a>
-                    <div class="collapse navbar-collapse" id="navbarsExample01">
-                        <ul class="navbar-nav mr-auto float-left">
-                            <li class="nav-item active">
+                    <a className="navbar-brand text-center name" href="#">Megumi Hiramoto</a>
+                    <div className="collapse navbar-collapse" id="navbarsExample01">
+                        <ul className="navbar-nav mr-auto float-left">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
-                            <li class="nav-item active">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/magazine">Magazine</Link>
                             </li>
-                            <li class="nav-item active">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/blog">Blog</Link>
                             </li>
-                            <li class="nav-item active">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/styling">Styling</Link>
                             </li>
-                            <li class="nav-item active">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/documentary">Documentary</Link>
                             </li>
-                            <li class="nav-item active">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
-                            <li class="nav-item active">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/resume">Resume</Link>
                             </li>
                         </ul>
