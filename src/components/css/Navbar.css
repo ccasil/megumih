@@ -1,13 +1,7 @@
-.sidenav---sidenav---_2tBP {
-    color: white;
-    /* height: 420px; */
-
-}
-
-.sidenav---navicon---3gCRo:hover {
-    display: none;
-}
-
-.header {
-    background: url(../../images/Header.JPG);
+.name {
+    font-family: 'BebasNeueBold';
+    font-weight: normal; 
+    font-style: normal;
+    text-align: center; 
+    font-size: 2em;
 }
