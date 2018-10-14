@@ -11,7 +11,7 @@ import styling9 from '../../images/styling/9.JPG';
 class Styling1 extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
                 <h1 className="bluefont display-1 text-center">MODERN CELEBRATION</h1>
                 <img className="img-fluid" src={styling5} alt="" />
                 <p className="text-center">Photographer: Votaton Siriyakul</p>

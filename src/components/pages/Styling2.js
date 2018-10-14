@@ -8,7 +8,7 @@ import styling12 from '../../images/styling/12.jpg';
 class Styling2 extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
                 <h1 className="bluefont display-1 text-center">FROM THE GOLDEN PAINTS</h1>
                 <p className="text-center">Photographer: Danielle Rueda</p>
                 <p className="text-center">Stylist: Nina Yang and Megumi Hiramoto</p>

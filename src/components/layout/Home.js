@@ -2,26 +2,29 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import "../css/Home.css";
 
+import header from '../../images/Header.JPG';
+
 class Home extends Component {
     render() {
         return (
-            <div>
-                <Link className="nav-link" to="/magazine"><div className="redcolor box">
+            <div className="container">
+                <img className="img-fluid" src={header} style={{ marginBottom: -200 }} alt="" />
+                <Link className="nav-link left" to="/magazine"><div className="redcolor box">
                     Magazine
                 </div></Link>
-                <Link className="nav-link" to="/blog"><div className="yellowcolor box">
+                <Link className="nav-link right" to="/blog"><div className="yellowcolor box">
                     Blog
                 </div></Link>
-                <Link className="nav-link" to="/styling"><div className="bluecolor box">
+                <Link className="nav-link left" to="/styling"><div className="bluecolor box">
                     Styling
                 </div></Link>
-                <Link className="nav-link" to="/documentary"><div className="redcolor box">
+                <Link className="nav-link right" to="/documentary"><div className="redcolor box">
                     Documentary
                 </div></Link>
-                <Link className="nav-link" to="/about"><div className="yellowcolor box">
+                <Link className="nav-link left" to="/about"><div className="yellowcolor box">
                     About
                 </div></Link>
-                <Link className="nav-link" to="/resume"><div className="bluecolor box">
+                <Link className="nav-link right" to="/resume"><div className="bluecolor box">
                     Resume
                 </div></Link>
             </div>

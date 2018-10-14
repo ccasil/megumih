@@ -1,10 +1,10 @@
-body {
+body figcaption{
   margin: 0px;
-  padding: 0px 0px 0px 36px;
-  font-family: 'CaladeaRegular'; 
+  padding: 0px 0px 0px 48px;
+  font-family: 'Oxygen', sans-serif;
   font-weight: normal; 
   font-style: normal; 
-  font-size: 2em;
+  font-size: 1em;
 }
 
 h1 {
@@ -13,3 +13,4 @@ h1 {
   font-style: normal;
   text-align: center; 
 }
+

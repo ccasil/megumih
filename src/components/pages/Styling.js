@@ -39,13 +39,13 @@ class Styling extends Component {
 
                 <div className="d-flex flex-row">
 
-                    <figure class="figure align-top d-flex flex-column">
-                        <figcaption class="figure-captio text-leftn">MODERN CELEBRATION</figcaption>
+                    <figure className="figure align-top d-flex flex-column">
+                        <figcaption className="text-left h2">MODERN CELEBRATION</figcaption>
                         <Link to="/styling1"><img className="img-fluid" src={styling1} alt="" /></Link>
                     </figure>
-                    <figure class="figure align-top d-flex flex-column">
+                    <figure className="figure align-top d-flex flex-column">
                         <Link to="/styling2"><img className="img-fluid" src={styling2} alt="" /></Link>
-                        <figcaption class="figure-caption text-right">FROM THE GOLDEN PAINT</figcaption>
+                        <figcaption className="text-right h2">FROM THE GOLDEN PAINT</figcaption>
                     </figure>
                 </div>
 
