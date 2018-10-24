@@ -41,10 +41,10 @@ class Styling extends Component {
 
                     <figure className="figure align-top d-flex flex-column">
                         <figcaption className="text-left h2">MODERN CELEBRATION</figcaption>
-                        <Link to="/styling1"><img className="img-fluid" src={styling1} alt="" /></Link>
+                        <Link to="/styling1"><img className="img-fluid" src={styling1} style={{ width: "75%" }} alt="" /></Link>
                     </figure>
                     <figure className="figure align-top d-flex flex-column">
-                        <Link to="/styling2"><img className="img-fluid" src={styling2} alt="" /></Link>
+                        <Link to="/styling2"><img className="img-fluid" src={styling2} style={{ width: "75%" }} alt="" /></Link>
                         <figcaption className="text-right h2">FROM THE GOLDEN PAINT</figcaption>
                     </figure>
                 </div>

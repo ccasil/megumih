@@ -1,3 +1,9 @@
+.overscreen {
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: -100px;
+}
+
 .redcolor {
   background-color: #af1f24;
 }

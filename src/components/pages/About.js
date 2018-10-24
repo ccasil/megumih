@@ -23,20 +23,20 @@ class About extends Component {
                     );
                 </script>
                 <h1 className="redfont display-1 overscreen">
-                <span className="about1">ABOUT </span> 
-                <span className="about2">ABOUT </span> 
-                <span className="about1">ABOUT </span> 
-                <span className="about2">ABOUT </span> 
-                <span className="about1">ABOUT </span> 
-                <span className="about2">ABOUT </span> 
-                <span className="about1">ABOUT </span> 
-                <span className="about2">ABOUT </span> 
-                <span className="about1">ABOUT </span> 
-                <span className="about2">ABOUT </span> 
-                <span className="about1">ABOUT </span> 
-                <span className="about2">ABOUT </span>
+                    <span className="about1">ABOUT </span> 
+                    <span className="about2">ABOUT </span> 
+                    <span className="about1">ABOUT </span> 
+                    <span className="about2">ABOUT </span> 
+                    <span className="about1">ABOUT </span> 
+                    <span className="about2">ABOUT </span> 
+                    <span className="about1">ABOUT </span> 
+                    <span className="about2">ABOUT </span> 
+                    <span className="about1">ABOUT </span> 
+                    <span className="about2">ABOUT </span> 
+                    <span className="about1">ABOUT </span> 
+                    <span className="about2">ABOUT </span>
                 </h1>
-                <img className="mx-auto d-block container img-fluid" src={bioimage} alt="" />
+                <img className="mx-auto d-block img-fluid" src={bioimage} style={{ width: "55%" }} alt="" />
                 <div className="container">
                     <p className="text-justify">
                         Megumi Hiramoto was born and raised in Yokohama, Japan – a beautiful port city located half an hour from Tokyo by train. 10 years of school life spent in cosmopolitan Tokyo naturally nurtured her interest and passion for fashion. As a teenager, she was into beautiful images of garments and enjoyed reading fashion articles and inspirational stories in magazines such as Vogue, Elle and Nylon. After high school, Megumi entered one of the country’s most prestigious universities, Aoyama Gakuin, where she studied International Politics and Economics. Having always been drawn to the fashion media world, her first internship experience was at ELLE Japan during her senior year. Upon graduating from college, Megumi was offered a job as a magazine assistant at Harper’s BAZAAR Japan. It was during this time that she decided to pursue her career as a fashion writer.
