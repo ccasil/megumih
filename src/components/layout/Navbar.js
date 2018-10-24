@@ -14,25 +14,25 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarsExample01">
                         <ul className="navbar-nav mr-auto float-left">
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/" target="_top">Home</Link>
+                                <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/magazine" target="_top">Magazine</Link>
+                                <Link className="nav-link" to="/magazine">Magazine</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/blog" target="_top">Blog</Link>
+                                <Link className="nav-link" to="/blog">Blog</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/styling" target="_top">Styling</Link>
+                                <Link className="nav-link" to="/styling">Styling</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/documentary" target="_top">Documentary</Link>
+                                <Link className="nav-link" to="/documentary">Documentary</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/about" target="_top">About</Link>
+                                <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="/resume" target="_top">Resume</Link>
+                                <Link className="nav-link" to="/resume">Resume</Link>
                             </li>
                         </ul>
                     </div>
