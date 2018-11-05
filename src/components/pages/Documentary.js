@@ -34,9 +34,7 @@ class Documentary extends Component {
                         <div className="col"><img className="mx-auto d-block img-fluid" src={docimage} alt="" /></div>
                         <div className="col"><p className="lead">It is not easy to settle in the States as an immigrant. Taro is a former sushi chef/restaurant owner who came to the States from Japan for his bright future. What’s his motivation? How did he achieve his dream? This is the story of one respectable man.</p></div>
                     </div>
-                    <div className="embed-responsive embed-responsive-4by3 container videodoc">
-                        {/* <iframe className="" src={docvid} title="Rumble Fish" allowFullScreen></iframe> */}
-                    </div>
+                    <div className="embed-responsive embed-responsive-16by9 divclass spacer"><iframe src="https://player.vimeo.com/video/295454295?color=ffffff&portrait=0" className="embed-responsive-item videoclass" frameBorder="0" title="Taro" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen={true}></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                 </div>
             </div>
         );

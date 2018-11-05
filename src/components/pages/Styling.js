@@ -35,7 +35,12 @@ class Styling extends Component {
                     <span className="styling1">Styling </span>
                     <span className="styling2">Styling </span>
                 </h1>
-
+                {/* <div className="container">
+                <div className="row">
+                        <div className="col"><h1 className="text-left">MODERN CELEBRATION</h1><Link to="/styling1"><img className="img-fluid mx-auto" src={styling1} style={{ width: "75%" }} alt="" /></Link></div>
+                        <div className="col"><Link to="/styling2"><img className="img-fluid mx-auto row" src={styling2} style={{ width: "75%" }} alt="" /></Link><h1 className="text-right row">FROM THE GOLDEN PAINT</h1></div>
+                </div>
+                </div> */}
 
                 <div className="d-flex flex-row">
 

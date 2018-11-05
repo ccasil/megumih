@@ -4,6 +4,10 @@
     margin-left: -100px;
 }
 
+img {
+  margin: 50px;
+}
+
 .redcolor {
   background-color: #af1f24;
 }
@@ -26,6 +30,10 @@
 
 .moveit {
   padding-left: 1em;
+}
+
+.spacer {
+  margin-top: 16px;
 }
 
 .parallax { 

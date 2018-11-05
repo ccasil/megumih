@@ -1,6 +1,6 @@
 body figcaption{
   margin: 0px;
-  padding: 0px 0px 0px 48px;
+  padding-top: 0px;
   font-family: 'Oxygen', sans-serif;
   font-weight: normal; 
   font-style: normal; 
@@ -12,5 +12,6 @@ h1 {
   font-weight: normal; 
   font-style: normal;
   text-align: center; 
+  margin-bottom: 16px;
 }
 
