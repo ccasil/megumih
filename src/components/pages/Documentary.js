@@ -19,7 +19,7 @@ class Documentary extends Component {
                         }, 1300)}
                     );
                 </script>
-                <h1 className="bluefont display-1 overscreen">
+                <h1 className="redfont display-1 overscreen">
                     <span className="blog1">DOCUMENTARY </span>
                     <span className="blog2">DOCUMENTARY </span>
                     <span className="blog1">DOCUMENTARY </span>

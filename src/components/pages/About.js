@@ -22,7 +22,7 @@ class About extends Component {
                         }, 1300)}
                     );
                 </script>
-                <h1 className="redfont display-1 overscreen">
+                <h1 className="yellowfont display-1 overscreen">
                     <span className="about1">ABOUT </span> 
                     <span className="about2">ABOUT </span> 
                     <span className="about1">ABOUT </span> 

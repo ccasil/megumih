@@ -19,6 +19,9 @@ img {
 .yellowcolor {
   background-color: #f6be00;
 }
+.yellowfont {
+  color: #f6be00;
+}
 
 .bluecolor {
   background-color: #001e60;
@@ -34,12 +37,4 @@ img {
 
 .spacer {
   margin-top: 16px;
-}
-
-.parallax { 
-  height: 200px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;	 
 }

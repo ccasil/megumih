@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Navbar from "./components/layout/Navbar";
+import Header from "./components/layout/Header";
 import Home from "./components/layout/Home";
 import Magazine from "./components/pages/Magazine";
 import Blog from "./components/pages/Blog";
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Router onUpdate={() => window.scrollTo(0, 0)}>
         <div className="App">
-          <Navbar />
+          <Header />
           <div className="container-fluid">
             <Route exact path="/" component={Home} />
             <Route exact path="/magazine" component={Magazine} />

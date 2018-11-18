@@ -1,12 +1,11 @@
 .box {
     height: 400px;
     width: 300px;
-    /* border: 1px solid black; */
     margin: auto;
 }
 
 body {
-    padding-top: 100px;
+    padding-top: 16px;
     text-align: center;
 }
 

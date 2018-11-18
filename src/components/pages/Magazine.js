@@ -18,7 +18,7 @@ class Magazine extends Component {
                         }, 1300)}
                     );
                 </script>
-                <h1 className="bluefont display-1 overscreen">
+                <h1 className="redfont display-1 overscreen">
                     <span className="magazine1">MAGAZINE </span>
                     <span className="magazine2">MAGAZINE </span>
                     <span className="magazine1">MAGAZINE </span>
