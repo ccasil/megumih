@@ -5,19 +5,19 @@ import cover from '../../images/magazine/magazinecover.png';
 import $ from 'jquery';
 
 class Magazine extends Component {
+    componentDidMount() {
+            $(document).ready(function(){
+                setInterval(function () {
+                    $(".magazine1").fadeToggle(1300);
+                    setTimeout(function () {
+                        $(".magazine2").fadeToggle(1300);
+                    }, 1300);
+                }, 1300)}
+            );
+    }
     render() {
         return (
             <div>
-                <script>
-                    $(document).ready(function(){
-                        setInterval(function () {
-                            $(".magazine1").fadeToggle(1300);
-                            setTimeout(function () {
-                                $(".magazine2").fadeToggle(1300);
-                            }, 1300);
-                        }, 1300)}
-                    );
-                </script>
                 <h1 className="redfont display-1 overscreen">
                     <span className="magazine1">MAGAZINE </span>
                     <span className="magazine2">MAGAZINE </span>

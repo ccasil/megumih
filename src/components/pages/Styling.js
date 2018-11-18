@@ -8,19 +8,19 @@ import styling1 from '../../images/styling/1.JPG';
 import styling2 from '../../images/styling/2.jpg';
 
 class Styling extends Component {
+    componentDidMount() {
+            $(document).ready(function(){
+                setInterval(function () {
+                    $(".styling1").fadeToggle(1300);
+                    setTimeout(function () {
+                        $(".styling2").fadeToggle(1300);
+                    }, 1300);
+                }, 1300)}
+            );
+    }
     render() {
         return (
             <div>
-                <script>
-                    $(document).ready(function(){
-                        setInterval(function () {
-                            $(".styling1").fadeToggle(1300);
-                            setTimeout(function () {
-                                $(".styling2").fadeToggle(1300);
-                            }, 1300);
-                        }, 1300)}
-                    );
-                </script>
                 <h1 className="bluefont display-1 overscreen">
                     <span className="styling1">Styling </span>
                     <span className="styling2">Styling </span>

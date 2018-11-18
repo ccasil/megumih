@@ -6,19 +6,19 @@ import docimage from '../../images/documentary/docimage.jpg';
 // import docvid from '../../images/documentary/RumbleFishDocumentary.mp4';
 
 class Documentary extends Component {
+    componentDidMount() {
+            $(document).ready(function(){
+                setInterval(function () {
+                    $(".blog1").fadeToggle(1300);
+                    setTimeout(function () {
+                        $(".blog2").fadeToggle(1300);
+                    }, 1300);
+                }, 1300)}
+            );
+    }
     render() {
         return (
             <div>
-                <script>
-                    $(document).ready(function(){
-                        setInterval(function () {
-                            $(".blog1").fadeToggle(1300);
-                            setTimeout(function () {
-                                $(".blog2").fadeToggle(1300);
-                            }, 1300);
-                        }, 1300)}
-                    );
-                </script>
                 <h1 className="redfont display-1 overscreen">
                     <span className="blog1">DOCUMENTARY </span>
                     <span className="blog2">DOCUMENTARY </span>

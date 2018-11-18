@@ -29,8 +29,6 @@ class App extends Component {
 
   handleMouseDown(e) {
     this.toggleMenu();
-
-    console.log("clicked");
     e.stopPropagation();
   }
 

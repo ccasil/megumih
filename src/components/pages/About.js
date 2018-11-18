@@ -9,19 +9,19 @@ import $ from 'jquery';
 import bioimage from '../../images/general/bio_image.png';
 
 class About extends Component {
+    componentDidMount() {
+            $(document).ready(function(){
+                setInterval(function () {
+                    $(".about1").fadeToggle(1300);
+                    setTimeout(function () {
+                        $(".about2").fadeToggle(1300);
+                    }, 1300);
+                }, 1300)}
+            );
+    }
     render() {
         return (
             <div>
-                <script>
-                    $(document).ready(function(){
-                        setInterval(function () {
-                            $(".about1").fadeToggle(1300);
-                            setTimeout(function () {
-                                $(".about2").fadeToggle(1300);
-                            }, 1300);
-                        }, 1300)}
-                    );
-                </script>
                 <h1 className="yellowfont display-1 overscreen">
                     <span className="about1">ABOUT </span> 
                     <span className="about2">ABOUT </span> 

@@ -5,20 +5,22 @@ import $ from 'jquery';
 import blogimage from '../../images/blog/blogimage.png';
 
 class Blog extends Component {
+    componentDidMount() {
+            $(document).ready(function(){
+                setInterval(function () {
+                    $(".blog1").fadeToggle(1300);
+                    setTimeout(function () {
+                        $(".blog2").fadeToggle(1300);
+                    }, 1300);
+                }, 1300)}
+            );
+    }
     render() {
         return (
             <div>
-                <script>
-                    $(document).ready(function(){
-                        setInterval(function () {
-                            $(".blog1").fadeToggle(1300);
-                            setTimeout(function () {
-                                $(".blog2").fadeToggle(1300);
-                            }, 1300);
-                        }, 1300)}
-                    );
-                </script>
                 <h1 className="yellowfont display-1 overscreen">
+                    <span className="blog1">BLOG </span>
+                    <span className="blog2">BLOG </span>
                     <span className="blog1">BLOG </span>
                     <span className="blog2">BLOG </span>
                     <span className="blog1">BLOG </span>
