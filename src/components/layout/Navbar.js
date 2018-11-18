@@ -22,7 +22,7 @@ class Navbar extends Component {
                 <h2><Link to="/resume">Resume</Link></h2>
             </div>
 
-
+// https://www.kirupa.com/react/smooth_sliding_menu_react_motion.htm
 
 
             // <div className="container">

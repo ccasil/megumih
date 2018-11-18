@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Header from "./components/layout/Header";
+import Navbar from "./components/layout/Navbar.js";
+import MenuButton from "./components/layout/MenuButton.js";
 import Home from "./components/layout/Home";
 import Magazine from "./components/pages/Magazine";
 import Blog from "./components/pages/Blog";
@@ -14,11 +16,39 @@ import Styling1 from "./components/pages/Styling1";
 import Styling2 from "./components/pages/Styling2";
 
 class App extends Component {
+  constructor(props, context) {
+    super(props, context);
+
+    this.state = {
+      visible: false
+    };
+
+    this.handleMouseDown = this.handleMouseDown.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
+  }
+
+  handleMouseDown(e) {
+    this.toggleMenu();
+
+    console.log("clicked");
+    e.stopPropagation();
+  }
+
+  toggleMenu() {
+    this.setState(
+      {
+        visible: !this.state.visible
+      }
+    );
+  }
   render() {
     return (
       <Router onUpdate={() => window.scrollTo(0, 0)}>
         <div className="App">
           <Header />
+          <MenuButton handleMouseDown={this.handleMouseDown} />
+          <Navbar handleMouseDown={this.handleMouseDown}
+            menuVisibility={this.state.visible} />
           <div className="container-fluid">
             <Route exact path="/" component={Home} />
             <Route exact path="/magazine" component={Magazine} />

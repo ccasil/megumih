@@ -5,7 +5,7 @@ class Menubutton extends Component {
     render() {
         return (
             <div>
-                <button id="roundButton" className="float-left fixed-top"
+                <button id="roundButton" className="fixed-top"
                     onMouseUp={this.props.handleMouseDown}></button>
             </div>
         );
