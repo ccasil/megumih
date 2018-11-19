@@ -40,7 +40,7 @@ class Blog extends Component {
                         Blog “IN-CROWD” was born from IN-CROWD magazine, which focuses on Japanese fashion, culture and art. Let’s make it more casual and accessible; the blog shares anything about new, cool, and fun Japanese fashion, culture and art.
                     </p>
                 </div>
-                <a className="col text-right" href="https://www.incrowdmag.com/" target="_blank" rel="noopener noreferrer">GO TO THE BLOG</a>
+                <a className="col text-right font-weight-bold" href="https://www.incrowdmag.com/" target="_blank" rel="noopener noreferrer">incrowdmag.com</a>
             </div>
         );
     }
