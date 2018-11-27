@@ -6,6 +6,7 @@ import $ from 'jquery';
 
 import styling1 from '../../images/styling/1.JPG';
 import styling2 from '../../images/styling/2.jpg';
+import styling3 from '../../images/styling/styling3/1.jpg';
 
 class Styling extends Component {
     componentDidMount() {
@@ -51,6 +52,12 @@ class Styling extends Component {
                     <figure className="figure align-top d-flex flex-column">
                         <Link to="/styling2"><img className="img-fluid" src={styling2} style={{ width: "75%" }} alt="" /></Link>
                         <figcaption className="text-right h2">FROM THE GOLDEN PAINT</figcaption>
+                    </figure>
+                </div>
+                <div className="d-flex flex-row">
+                    <figure className="figure align-top d-flex flex-column">
+                        <Link to="/styling3"><img className="img-fluid" src={styling3} style={{ width: "65%" }} alt="" /></Link>
+                        {/* <figcaption className="text-right h2">Title</figcaption> */}
                     </figure>
                 </div>
 

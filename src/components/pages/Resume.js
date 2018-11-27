@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import resumepic from '../../images/RESUME_megumihiramoto.PNG';
+import resumepdf from '../../images/RESUME_megumihiramoto.pdf';
+
 import $ from 'jquery';
 
 class Resume extends Component {
@@ -31,6 +34,7 @@ class Resume extends Component {
                     <span className="resume1">RESUME </span>
                     <span className="resume2">RESUME </span>
                 </h1>
+                <a href={resumepdf} target="_blank"><img className="" src={resumepic} style={{ width: "40%" }} alt="" /></a>
             </div>
         );
     }

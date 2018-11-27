@@ -13,51 +13,16 @@ class Navbar extends Component {
             <div id="flyoutMenu"
                 onMouseUp={this.props.handleMouseDown}
                 className={visibility}>
-                <h2><Link to="/">Home</Link></h2>
-                <h2><Link to="/magazine">Magazine</Link></h2>
-                <h2><Link to="/blog">Blog</Link></h2>
-                <h2><Link to="/styling">Styling</Link></h2>
-                <h2><Link to="/documentary">Documentary</Link></h2>
-                <h2><Link to="/about">About</Link></h2>
-                <h2><Link to="/resume">Resume</Link></h2>
+                <h2 className="child"><Link to="/">HOME</Link></h2>
+                <h2><Link to="/magazine">MAGAZINE</Link></h2>
+                <h2><Link to="/blog">BLOG</Link></h2>
+                <h2><Link to="/styling">STYLING</Link></h2>
+                <h2><Link to="/documentary">DOCUMENTARY</Link></h2>
+                <h2><Link to="/about">ABOUT</Link></h2>
+                <h2><Link to="/resume">RESUME</Link></h2>
             </div>
 
 // https://www.kirupa.com/react/smooth_sliding_menu_react_motion.htm
-
-
-            // <div className="container">
-            //     <nav className="navbar fixed-top navbar-light text-center">
-            //         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-            //             <span className="navbar-toggler-icon"></span>
-            //         </button>
-            //         <a className="navbar-brand mx-auto name" href="#">Megumi Hiramoto</a>
-            //         <div className="collapse navbar-collapse" id="navbarsExample01">
-            //             <ul className="navbar-nav mr-auto float-left">
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/">Home</Link>
-            //                 </li>
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/magazine">Magazine</Link>
-            //                 </li>
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/blog">Blog</Link>
-            //                 </li>
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/styling">Styling</Link>
-            //                 </li>
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/documentary">Documentary</Link>
-            //                 </li>
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/about">About</Link>
-            //                 </li>
-            //                 <li className="nav-item active">
-            //                     <Link className="nav-link" to="/resume">Resume</Link>
-            //                 </li>
-            //             </ul>
-            //         </div>
-            //     </nav>
-            // </div>
         );
     }
 }
