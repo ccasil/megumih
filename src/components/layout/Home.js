@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../css/Home.css";
 
 import header from '../../images/Header.JPG';
