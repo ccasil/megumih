@@ -42,7 +42,7 @@ class App extends Component {
   }
   render() {
     return (
-      <Router onUpdate={() => window.scrollTo(0, 0)}>
+      <Router basename={process.env.PUBLIC_URL} onUpdate={() => window.scrollTo(0, 0)}>
         <div className="App">
           <Header />
           <MenuButton handleMouseDown={this.handleMouseDown} />
