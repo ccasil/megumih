@@ -16,10 +16,12 @@ class Styling3 extends Component {
             <div>
                 <h1 className="bluefont display-1 text-center">TITLE</h1>
                 <img className="img-fluid" src={top} style={{ width: "55%" }} alt="" />
+
                 <p className="text-center">Photographer: Alexander Defiesta</p>
                 <p className="text-center">Stylist: Erika Mae Martin</p>
                 <p className="text-center">Model: Kosuke Fujikawa</p>
                 <p className="text-center">Artistic Director: Megumi Hiramoto</p>
+                
                 <div className="row">
                     <img className="img-fluid col" src={stylepic1} style={{ width: "60%" }} alt="" />
                     <img className="img-fluid col" src={stylepic2} style={{ width: "60%" }} alt="" />
