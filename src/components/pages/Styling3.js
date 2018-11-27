@@ -26,10 +26,10 @@ class Styling3 extends Component {
                 </div>
                 <img className="img-fluid" src={stylepic3} style={{ width: "60%" }} alt="" />
                 <img className="img-fluid" src={stylepic4} style={{ width: "60%" }} alt="" />
-                {/* <div className="row"> */}
-                    <img className="img-fluid" src={stylepic5} style={{ width: "60%" }} alt="" />
-                    <img className="img-fluid" src={stylepic6} style={{ width: "60%" }} alt="" />
-                {/* </div> */}
+                <div className="row d-flex align-items-center h-100">
+                    <img className="img-fluid col" src={stylepic5} style={{ width: "60%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic6} style={{ width: "60%" }} alt="" />
+                </div>
                 <img className="img-fluid" src={stylepic7} style={{ width: "60%" }} alt="" />
                 <img className="img-fluid" src={stylepic8} style={{ width: "60%" }} alt="" />
             </div>

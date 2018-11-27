@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div className="container">
                 <img className="img-fluid" src={header} style={{ marginBottom: -200 }} alt="" />
-                <Link className="nav-link left" to="/magazine"><div className="redcolor box">
+                {/* <Link className="nav-link left" to="/magazine"><div className="redcolor box">
                     Magazine
                 </div></Link>
                 <Link className="nav-link right" to="/blog"><div className="yellowcolor box">
@@ -26,7 +26,7 @@ class Home extends Component {
                 </div></Link>
                 <Link className="nav-link right" to="/resume"><div className="bluecolor box">
                     Resume
-                </div></Link>
+                </div></Link> */}
             </div>
         );
     }
