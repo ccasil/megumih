@@ -7,7 +7,7 @@ import "../css/Home.css";
 class Home extends Component {
     render() {
         return (
-            <div className="container landing">
+            <div className="landing">
                 {/* <img className="img-fluid" src={header} style={{ width: "100%" }} alt="" /> */}
                 {/* <Link className="nav-link left" to="/magazine"><div className="redcolor box">
                     Magazine
