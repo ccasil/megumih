@@ -8,7 +8,7 @@ class Footer extends Component {
                 <table className="text-right" style={{ height: "100px", marginLeft: "25px" }}>
                     <tbody>
                         <tr>
-                            <td class="align-middle text-right">megumihiramoto01@gmail.com</td>
+                            <td className="align-middle text-right">megumihiramoto01@gmail.com</td>
                         </tr>
                     </tbody>
                 </table>

@@ -25,8 +25,10 @@ class Styling3 extends Component {
                         <p className="text-center">Artistic Director: Megumi Hiramoto</p>
                     </div>
                 </div>
-                <p className="lead">This editorial simply captures casual skater culture embraced by Japanese people – with the implication of mixed cultures of Japan and America. This is the expression of youth, culture and diversity</p>
-                
+                <div className="row">
+                <p className="text-center spacer col">This editorial simply captures casual skater culture embraced by Japanese people – with the implication of mixed cultures of Japan and America. This is the expression of youth, culture and diversity</p>
+                <p className="col"> </p>
+                </div>
                 <div className="row">
                     <img className="img-fluid col" src={stylepic1} style={{ width: "60%" }} alt="" />
                     <img className="img-fluid col" src={stylepic2} style={{ width: "60%" }} alt="" />

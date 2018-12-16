@@ -11,13 +11,15 @@ class Styling2 extends Component {
         return (
             <div className="">
                 <h1 className="bluefont display-1 text-center">FROM THE GOLDEN PAINTS</h1>
-                <p className="text-center">Photographer: Danielle Rueda</p>
-                <p className="text-center">Stylist: Nina Yang and Megumi Hiramoto</p>
-                <p className="text-center">Model: Erica Lowry</p>
-                <p className="text-center">Hair &amp; Makeup Artist: Angela Kim</p>
-
-                <p className="lead text-center">Gustav Klimt is an Austrian symbolist painter, who is well known for his use of gold. With the inspiration from his golden paints, women around Klimt and his lifestyle, this fashion editorial expresses the power of colors and nostalgia. </p>
-                
+                <div className="row">
+                <div className="col">
+                    <p className="text-center">Photographer: Danielle Rueda</p>
+                    <p className="text-center">Stylist: Nina Yang and Megumi Hiramoto</p>
+                    <p className="text-center">Model: Erica Lowry</p>
+                    <p className="text-center">Hair &amp; Makeup Artist: Angela Kim</p>
+                </div>
+                <p className="text-center spacer col">Gustav Klimt is an Austrian symbolist painter, who is well known for his use of gold. With the inspiration from his golden paints, women around Klimt and his lifestyle, this fashion editorial expresses the power of colors and nostalgia. </p>
+                </div>
                 <div className="row d-flex align-items-center h-100">
                     <img className="img-fluid col" src={styling2} style={{ width: "50%" }} alt="" />
                     <img className="img-fluid col" src={styling10} style={{ width: "50%" }} alt="" />

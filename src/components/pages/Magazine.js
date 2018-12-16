@@ -43,9 +43,9 @@ class Magazine extends Component {
                 </div>
                 <a className="col text-right font-weight-bold" href="https://incrowdmagazine.weebly.com/" target="_blank" rel="noopener noreferrer">INCROWDmagazine.com</a>
                 <a className="col text-right font-weight-bold" href="https://issuu.com/itsmeg.hrmt/docs/incrowd_neweditissuu" target="_blank" rel="noopener noreferrer">Read IN-CROWD on Issuu</a>
-                <img className="mx-auto d-block img-fluid" src={magazine1} style={{ width: "75%" }} alt="" />
-                <img className="mx-auto d-block img-fluid" src={magazine2} style={{ width: "75%" }} alt="" />
-                <img className="mx-auto d-block img-fluid" src={magazine3} style={{ width: "75%" }} alt="" />
+                <img className="mx-auto d-block img-fluid" src={magazine1} style={{ width: "50%" }} alt="" />
+                <img className="mx-auto d-block img-fluid" src={magazine2} style={{ width: "50%" }} alt="" />
+                <img className="mx-auto d-block img-fluid" src={magazine3} style={{ width: "50%" }} alt="" />
             </div>
         );
     }
