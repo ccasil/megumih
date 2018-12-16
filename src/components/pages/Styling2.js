@@ -15,7 +15,9 @@ class Styling2 extends Component {
                 <p className="text-center">Stylist: Nina Yang and Megumi Hiramoto</p>
                 <p className="text-center">Model: Erica Lowry</p>
                 <p className="text-center">Hair &amp; Makeup Artist: Angela Kim</p>
-                {/* <img className="" src={stylepage2} style={{ width: "100%" }} alt="" /> */}
+
+                <p className="lead text-center">Gustav Klimt is an Austrian symbolist painter, who is well known for his use of gold. With the inspiration from his golden paints, women around Klimt and his lifestyle, this fashion editorial expresses the power of colors and nostalgia. </p>
+                
                 <div className="row d-flex align-items-center h-100">
                     <img className="img-fluid col" src={styling2} style={{ width: "50%" }} alt="" />
                     <img className="img-fluid col" src={styling10} style={{ width: "50%" }} alt="" />

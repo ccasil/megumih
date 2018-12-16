@@ -15,12 +15,17 @@ class Styling3 extends Component {
         return (
             <div>
                 <h1 className="bluefont display-1 text-center">SAN FRANCISCO SKATE PERSPECTIVE</h1>
-                <img className="img-fluid" src={top} style={{ width: "55%" }} alt="" />
 
-                <p className="text-center">Photographer: Alexander Defiesta</p>
-                <p className="text-center">Stylist: Erika Mae Martin</p>
-                <p className="text-center">Model: Kosuke Fujikawa</p>
-                <p className="text-center">Artistic Director: Megumi Hiramoto</p>
+                <div className="row d-flex align-items-center h-100">
+                    <img className="img-fluid col" src={top} style={{ width: "55%" }} alt="" />
+                    <div className="col">
+                        <p className="text-center">Photographer: Alexander Defiesta</p>
+                        <p className="text-center">Stylist: Erika Mae Martin</p>
+                        <p className="text-center">Model: Kosuke Fujikawa</p>
+                        <p className="text-center">Artistic Director: Megumi Hiramoto</p>
+                    </div>
+                </div>
+                <p className="lead">This editorial simply captures casual skater culture embraced by Japanese people – with the implication of mixed cultures of Japan and America. This is the expression of youth, culture and diversity</p>
                 
                 <div className="row">
                     <img className="img-fluid col" src={stylepic1} style={{ width: "60%" }} alt="" />

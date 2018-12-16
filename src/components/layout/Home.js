@@ -7,8 +7,8 @@ import header from '../../images/Header.JPG';
 class Home extends Component {
     render() {
         return (
-            <div className="container">
-                <img className="img-fluid" src={header} style={{ marginBottom: -200 }} alt="" />
+            <div className="container landing">
+                {/* <img className="img-fluid" src={header} style={{ width: "100%" }} alt="" /> */}
                 {/* <Link className="nav-link left" to="/magazine"><div className="redcolor box">
                     Magazine
                 </div></Link>

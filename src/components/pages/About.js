@@ -50,8 +50,8 @@ class About extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <a className="col text-right" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img className="d-inline mx-auto" src={instagram} style={{ height: 100 }} alt="" /></a>
-                        <a className="col text-left" href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img className="d-inline mx-auto" src={linkedin} style={{ height: 100 }} alt="" /></a>
+                        <a className="col text-right" href="https://www.instagram.com/megumi_hrmt/" target="_blank" rel="noopener noreferrer"><img className="d-inline mx-auto" src={instagram} style={{ height: 100 }} alt="" /></a>
+                        <a className="col text-left" href="https://www.linkedin.com/in/megumi-hiramoto-67521a126" target="_blank" rel="noopener noreferrer"><img className="d-inline mx-auto" src={linkedin} style={{ height: 100 }} alt="" /></a>
                     </div>
                 </div>
             </div>

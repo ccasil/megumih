@@ -15,6 +15,7 @@ import Resume from "./components/pages/Resume";
 import Styling1 from "./components/pages/Styling1";
 import Styling2 from "./components/pages/Styling2";
 import Styling3 from "./components/pages/Styling3";
+import Footer from "./components/layout/Footer";
 
 class App extends Component {
   constructor(props, context) {
@@ -60,6 +61,7 @@ class App extends Component {
             <Route exact path="/styling2" component={Styling2} />
             <Route exact path="/styling3" component={Styling3} />
           </div>
+          <Footer />
         </div>
       </Router>
     );
