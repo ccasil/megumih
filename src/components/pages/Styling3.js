@@ -14,7 +14,7 @@ class Styling3 extends Component {
     render() {
         return (
             <div>
-                <h1 className="bluefont display-1 text-center">TITLE</h1>
+                <h1 className="bluefont display-1 text-center">SAN FRANCISCO SKATE PERSPECTIVE</h1>
                 <img className="img-fluid" src={top} style={{ width: "55%" }} alt="" />
 
                 <p className="text-center">Photographer: Alexander Defiesta</p>
@@ -26,14 +26,18 @@ class Styling3 extends Component {
                     <img className="img-fluid col" src={stylepic1} style={{ width: "60%" }} alt="" />
                     <img className="img-fluid col" src={stylepic2} style={{ width: "60%" }} alt="" />
                 </div>
-                <img className="img-fluid" src={stylepic3} style={{ width: "60%" }} alt="" />
-                <img className="img-fluid" src={stylepic4} style={{ width: "60%" }} alt="" />
+                <div className="row">
+                    <img className="img-fluid col" src={stylepic3} style={{ width: "40%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic4} style={{ width: "40%" }} alt="" />
+                </div>
                 <div className="row d-flex align-items-center h-100">
                     <img className="img-fluid col" src={stylepic5} style={{ width: "60%" }} alt="" />
-                    <img className="img-fluid col" src={stylepic6} style={{ width: "60%" }} alt="" />
+                    <div className="col">
+                        <img className="img-fluid" src={stylepic6} style={{ width: "100%" }} alt="" />
+                        <img className="img-fluid" src={stylepic7} style={{ width: "100%" }} alt="" />
+                    </div>
                 </div>
-                <img className="img-fluid" src={stylepic7} style={{ width: "60%" }} alt="" />
-                <img className="img-fluid" src={stylepic8} style={{ width: "60%" }} alt="" />
+                <img className="img-fluid" src={stylepic8} style={{ width: "80%" }} alt="" />
             </div>
         );
     }

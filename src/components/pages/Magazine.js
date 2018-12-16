@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 import cover from '../../images/magazine/magazinecover.png';
+import magazine1 from '../../images/magazine/1.png';
+import magazine2 from '../../images/magazine/2.png';
+import magazine3 from '../../images/magazine/3.png';
 
 import $ from 'jquery';
 
@@ -38,7 +41,11 @@ class Magazine extends Component {
                         IN-CROWD is a magazine that digs into upcoming Japanese fashion, culture and art scene and shares new information and inspiration with people outside of Japan. When it comes to Japanese fashion, people think about Harajuku fashion or deconstruction fashion by old legends such as Yohji Yamamoto, Issey Miyake and Rei Kawakubo. Time has changed; there are many young, fresh labels with the great expression of Japanese simplicity and quality, and there are many talents hidden inside Japan. IN-CROWD wants to be the bridge between the Japanese and Western world because they deserve more recognition internationally. That’s the spirit of IN-CROWD.
                     </p>
                 </div>
+                <a className="col text-right font-weight-bold" href="https://incrowdmagazine.weebly.com/" target="_blank" rel="noopener noreferrer">INCROWDmagazine.com</a>
                 <a className="col text-right font-weight-bold" href="https://issuu.com/itsmeg.hrmt/docs/incrowd_neweditissuu" target="_blank" rel="noopener noreferrer">Read IN-CROWD on Issuu</a>
+                <img className="mx-auto d-block img-fluid" src={magazine1} style={{ width: "75%" }} alt="" />
+                <img className="mx-auto d-block img-fluid" src={magazine2} style={{ width: "75%" }} alt="" />
+                <img className="mx-auto d-block img-fluid" src={magazine3} style={{ width: "75%" }} alt="" />
             </div>
         );
     }
