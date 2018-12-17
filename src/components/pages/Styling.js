@@ -42,23 +42,24 @@ class Styling extends Component {
                         <div className="col"><Link to="/styling2"><img className="img-fluid mx-auto row" src={styling2} style={{ width: "75%" }} alt="" /></Link><h1 className="text-right row">FROM THE GOLDEN PAINT</h1></div>
                 </div>
                 </div> */}
+                <div className="container">
+                    <div className="d-flex flex-row">
 
-                <div className="d-flex flex-row">
-
-                    <figure className="figure align-top d-flex flex-column">
-                        <figcaption className="text-left h2">MODERN CELEBRATION</figcaption>
-                        <Link to="/styling1"><img className="img-fluid" src={styling1} style={{ width: "100%" }} alt="" /></Link>
-                    </figure>
-                    <figure className="figure align-top d-flex flex-column">
-                        <Link to="/styling2"><img className="img-fluid" src={styling2} style={{ width: "100%" }} alt="" /></Link>
-                        <figcaption className="text-right h2">FROM THE GOLDEN PAINTS</figcaption>
-                    </figure>
-                </div>
-                <div className="d-flex flex-row">
-                    <figure className="figure align-top d-flex flex-column">
-                        <figcaption className="text-center h2">SAN FRANCISCO SKATE PERSPECTIVE</figcaption>
-                        <Link to="/styling3"><img className="img-fluid" src={styling3} style={{ width: "65%" }} alt="" /></Link>
-                    </figure>
+                        <figure className="figure align-top d-flex flex-column">
+                            <figcaption className="text-left h2">MODERN CELEBRATION</figcaption>
+                            <Link to="/styling1"><img className="img-fluid" src={styling1} style={{ width: "100%" }} alt="" /></Link>
+                        </figure>
+                        <figure className="figure align-top d-flex flex-column">
+                            <Link to="/styling2"><img className="img-fluid" src={styling2} style={{ width: "100%" }} alt="" /></Link>
+                            <figcaption className="text-right h2">FROM THE GOLDEN PAINTS</figcaption>
+                        </figure>
+                    </div>
+                    <div className="d-flex flex-row">
+                        <figure className="figure align-top d-flex flex-column">
+                            <figcaption className="text-center h2">SAN FRANCISCO SKATE PERSPECTIVE</figcaption>
+                            <Link to="/styling3"><img className="img-fluid" src={styling3} style={{ width: "65%" }} alt="" /></Link>
+                        </figure>
+                    </div>
                 </div>
 
             </div>

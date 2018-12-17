@@ -56,8 +56,8 @@ class App extends Component {
             <Route exact path="/documentary" component={Documentary} />
             <Route exact path="/about" component={About} />
             <Route exact path="/resume" component={Resume} />
+            <Route exact path="/styling" component={Styling} />
             <div className="container">
-              <Route exact path="/styling" component={Styling} />
               <Route exact path="/styling1" component={Styling1} />
               <Route exact path="/styling2" component={Styling2} />
               <Route exact path="/styling3" component={Styling3} />
