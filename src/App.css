@@ -1,7 +1,7 @@
 .overscreen {
     white-space: nowrap;
     overflow: hidden;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 img {
@@ -36,5 +36,6 @@ img {
 }
 
 .spacer {
-  margin-top: 16px;
+  margin: 16px 0px 16px 0px;
+  padding: 0px 16px 0px 16px;
 }

@@ -13,7 +13,7 @@ import stylepic8 from '../../images/styling/styling3/8.jpg';
 class Styling3 extends Component {
     render() {
         return (
-            <div>
+            <div className="container">
                 <h1 className="bluefont display-1 text-center">SAN FRANCISCO SKATE PERSPECTIVE</h1>
 
                 <div className="row d-flex align-items-center h-100">
@@ -26,8 +26,8 @@ class Styling3 extends Component {
                     </div>
                 </div>
                 <div className="row">
-                <p className="text-center spacer col">This editorial simply captures casual skater culture embraced by Japanese people – with the implication of mixed cultures of Japan and America. This is the expression of youth, culture and diversity</p>
-                <p className="col"> </p>
+                    <p className="text-center spacer col">This editorial simply captures casual skater culture embraced by Japanese people – with the implication of mixed cultures of Japan and America. This is the expression of youth, culture and diversity</p>
+                    <p className="col"> </p>
                 </div>
                 <div className="row">
                     <img className="img-fluid col" src={stylepic1} style={{ width: "60%" }} alt="" />

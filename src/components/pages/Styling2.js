@@ -9,7 +9,7 @@ import styling12 from '../../images/styling/12.jpg';
 class Styling2 extends Component {
     render() {
         return (
-            <div className="">
+            <div className="container">
                 <h1 className="bluefont display-1 text-center">FROM THE GOLDEN PAINTS</h1>
                 <div className="row">
                 <div className="col">

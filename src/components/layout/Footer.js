@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div id="footer">
-                <table className="text-right" style={{ height: "100px", marginLeft: "25px" }}>
+                <table className="text-right" style={{ height: "96px", marginLeft: "25px" }}>
                     <tbody>
                         <tr>
                             <td className="align-middle text-right">megumihiramoto01@gmail.com</td>

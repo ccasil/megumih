@@ -1,0 +1,6 @@
+.outline {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    margin-bottom: 20px;
+}

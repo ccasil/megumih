@@ -7,26 +7,8 @@ import "../css/Home.css";
 class Home extends Component {
     render() {
         return (
-            <div className="landing">
-                {/* <img className="img-fluid" src={header} style={{ width: "100%" }} alt="" /> */}
-                {/* <Link className="nav-link left" to="/magazine"><div className="redcolor box">
-                    Magazine
-                </div></Link>
-                <Link className="nav-link right" to="/blog"><div className="yellowcolor box">
-                    Blog
-                </div></Link>
-                <Link className="nav-link left" to="/styling"><div className="bluecolor box">
-                    Styling
-                </div></Link>
-                <Link className="nav-link right" to="/documentary"><div className="redcolor box">
-                    Documentary
-                </div></Link>
-                <Link className="nav-link left" to="/about"><div className="yellowcolor box">
-                    About
-                </div></Link>
-                <Link className="nav-link right" to="/resume"><div className="bluecolor box">
-                    Resume
-                </div></Link> */}
+            <div className="container-fluid">
+                <div className="landing"></div>
             </div>
         );
     }

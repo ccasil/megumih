@@ -34,13 +34,15 @@ class Blog extends Component {
                     <span className="blog1">BLOG </span>
                     <span className="blog2">BLOG </span>
                 </h1>
-                <img className="mx-auto d-block img-fluid" src={blogimage} style={{ width: "50%" }} alt="" />
                 <div className="container">
+                    <img className="mx-auto d-block img-fluid" src={blogimage} style={{ }} alt="" />
                     <p className="text-justify spacer">
                         Blog “IN-CROWD” was born from IN-CROWD magazine, which focuses on Japanese fashion, culture and art. Let’s make it more casual and accessible; the blog shares anything about new, cool, and fun Japanese fashion, culture and art.
                     </p>
                 </div>
-                <a className="col text-right font-weight-bold" href="https://www.incrowdmag.com/" target="_blank" rel="noopener noreferrer">incrowdmag.com</a>
+                <div className="spacer">
+                    <a className="col text-right font-weight-bold spacer" href="https://www.incrowdmag.com/" target="_blank" rel="noopener noreferrer">incrowdmag.com</a>
+                </div>
             </div>
         );
     }

@@ -47,23 +47,18 @@ class App extends Component {
         <div className="App">
           <Header />
           <MenuButton handleMouseDown={this.handleMouseDown} />
-          <Navbar handleMouseDown={this.handleMouseDown}
-            menuVisibility={this.state.visible} />
-          <div className="container-fluid">
-            <Route exact path="/" component={Home} />
-            <Route exact path="/magazine" component={Magazine} />
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/documentary" component={Documentary} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/styling" component={Styling} />
-            <div className="container">
-              <Route exact path="/styling1" component={Styling1} />
-              <Route exact path="/styling2" component={Styling2} />
-              <Route exact path="/styling3" component={Styling3} />
-            </div>
-            <Footer />
-          </div>
+          <Navbar handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/magazine" component={Magazine} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/documentary" component={Documentary} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/styling" component={Styling} />
+          <Route exact path="/styling1" component={Styling1} />
+          <Route exact path="/styling2" component={Styling2} />
+          <Route exact path="/styling3" component={Styling3} />
+          <Footer />
         </div>
       </Router>
     );

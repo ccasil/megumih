@@ -12,7 +12,7 @@ import stylepic9 from '../../images/styling/9.JPG';
 class Styling1 extends Component {
     render() {
         return (
-            <div className="">
+            <div className="container">
 
                 <h1 className="bluefont display-1 text-center">MODERN CELEBRATION</h1>
 

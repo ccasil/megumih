@@ -53,6 +53,7 @@ class Styling extends Component {
                             <Link to="/styling2"><img className="img-fluid" src={styling2} style={{ width: "100%" }} alt="" /></Link>
                             <figcaption className="text-right h2">FROM THE GOLDEN PAINTS</figcaption>
                         </figure>
+                        
                     </div>
                     <div className="d-flex flex-row">
                         <figure className="figure align-top d-flex flex-column">
