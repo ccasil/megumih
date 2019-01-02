@@ -32,15 +32,15 @@ class Styling1 extends Component {
                         <p className="text-center spacer">Let’s mix cultures, styles and traditions. This editorial features the essence of beautiful Japanese traditional clothing Kimono with youthfulness and street-style. The contrast between the beauty of Kimono and casual clothing and the background of the Mission District in San Francisco create a sense of melted cultures and styles.</p>
                         <img className="img-fluid" src={stylepic3} style={{ width: "100%" }} alt="" />
                     </div>
-                    <img className="img-fluid col" src={stylepic4} style={{ width: "60%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic4} style={{ width: "50%" }} alt="" />
                 </div>
                 <div className="row d-flex align-items-center h-100">
-                    <img className="img-fluid col" src={stylepic6} style={{ width: "60%" }} alt="" />
-                    <img className="img-fluid col" src={stylepic7} style={{ width: "60%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic6} style={{ width: "50%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic7} style={{ width: "50%" }} alt="" />
                 </div>
                 <div className="row d-flex align-items-center h-100">
-                    <img className="img-fluid col" src={stylepic8} style={{ width: "60%" }} alt="" />
-                    <img className="img-fluid col" src={stylepic9} style={{ width: "60%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic8} style={{ width: "50%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic9} style={{ width: "50%" }} alt="" />
                 </div>
             </div>
         );

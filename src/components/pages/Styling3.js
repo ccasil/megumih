@@ -30,21 +30,21 @@ class Styling3 extends Component {
                     <p className="col"> </p>
                 </div>
                 <div className="row">
-                    <img className="img-fluid col" src={stylepic1} style={{ width: "60%" }} alt="" />
-                    <img className="img-fluid col" src={stylepic2} style={{ width: "60%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic1} style={{ width: "50%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic2} style={{ width: "50%" }} alt="" />
                 </div>
                 <div className="row">
-                    <img className="img-fluid col" src={stylepic3} style={{ width: "40%" }} alt="" />
-                    <img className="img-fluid col" src={stylepic4} style={{ width: "40%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic3} style={{ width: "50%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic4} style={{ width: "50%" }} alt="" />
                 </div>
                 <div className="row d-flex align-items-center h-100">
-                    <img className="img-fluid col" src={stylepic5} style={{ width: "60%" }} alt="" />
+                    <img className="img-fluid col" src={stylepic5} style={{ width: "50%" }} alt="" />
                     <div className="col">
                         <img className="img-fluid" src={stylepic6} style={{ width: "100%" }} alt="" />
                         <img className="img-fluid" src={stylepic7} style={{ width: "100%" }} alt="" />
                     </div>
                 </div>
-                <img className="img-fluid" src={stylepic8} style={{ width: "80%" }} alt="" />
+                <img className="img-fluid" src={stylepic8} style={{ width: "100%" }} alt="" />
             </div>
         );
     }
