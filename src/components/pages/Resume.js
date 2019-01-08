@@ -37,7 +37,7 @@ class Resume extends Component {
                     <span className="resume2">RESUME </span>
                 </h1>
                 <div className="container">
-                    <a href={resumepdf} target="_blank"><img className="img-fluid outline" src={resumepic} style={{ width: "75%" }} alt="" /></a>
+                    <a href={resumepdf} target="_blank" rel="noopener noreferrer"><img className="img-fluid outline" src={resumepic} style={{ width: "75%" }} alt="" /></a>
                 </div>
             </div>
         );
